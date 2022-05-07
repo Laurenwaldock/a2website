@@ -1,43 +1,52 @@
 body {
     font-size: 16px;
-    background-color: #f4f4f4;
+    background-color: #ffffff;
     font-family: sans-serif;
+
 }
 
 h1 {
     font-size: 2em;
+    margin: 1.5em 0;
+
     /* shorthand for TOP RIGHT BOTTOM LEFT */
     /* margin: 1em 0 1.5em 0; */
 }
 
 h2 {
     font-size: 1.6em;
+    margin: 1.5em 0;
+    text-align: center;
 }
 
 h3 {
-    font-size: 1.4em;
+    font-size: 1.5em;
+    margin: 1.5em 0;
+    text-align: center;
+
 }
 
 p {
-    font-size: 1.2em;
-    line-height: 1.5em;
-    margin-bottom: 1.5em;
+    font-size: 1em;
+    line-height: 1.2em;
+    margin-bottom: 1.2em;
+    text-align: center;
 }
 
 .inner-wrapper {
-    width: 90%;
+    width: 70%;
     margin: 0 auto;
 }
 
 header,
 footer {
-    background-color: #777999;
+    color: white;
+    background-image: url(../images/Hero.webp);
     padding: 2em 0;
 }
 
 .hero {
     text-align: center;
-    background: #a5a5a5;
     min-height: 5em;
     padding: 2em;
     margin: 1em 0;
@@ -46,11 +55,19 @@ footer {
     align-items: center;
     justify-content: center;
 
-
 }
 
-
+img {
+    width: 100%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    align-items: center;
+}
 
 main {
     margin-bottom: 2em;
+}
+
+.test {
+    font-size: 200%;
 }
